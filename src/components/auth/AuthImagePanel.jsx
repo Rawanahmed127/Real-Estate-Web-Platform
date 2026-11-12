@@ -1,5 +1,5 @@
 
-import villaImg from "../../assets/modern-villa.png";
+import villaImg from "../../assets/Modern-villa.png";
 
 export default function AuthImagePanel() {
   return (
