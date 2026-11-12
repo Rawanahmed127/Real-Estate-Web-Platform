@@ -4,9 +4,9 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/DIYAR/',
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] })
-    base: '/DIYAR/',
   ],
 })
